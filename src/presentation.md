@@ -580,7 +580,7 @@ podman build .        # Test Dockerfiles
 | Root by default | Rootless by default |
 | Industry standard | Growing alternative |
 | Rich ecosystem | Modular tools |
-| Not free for gov use | Free for gov use |
+| GUI not free for gov use | All Open Source |
 
 **Podman is not replacing Docker** - it's providing a secure, compatible alternative.
 
