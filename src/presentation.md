@@ -74,7 +74,7 @@ Docker revolutionized containerization (2013)
 
 The Docker Engine is Open Source (Apache 2.0) 👍
 
-Fineprint:
+The Docker Desktop is not (fineprint) 🛑:
 
 **U.S. Public Sector Customer**
 - https://www.docker.com/static/Docker-Public-Sector-SSA.pdf
