@@ -2,6 +2,7 @@
 
 |Name|Open Source|Platforms|Key Features|Pros|Cons|
 |---|---|---|---|---|---|
+| **[Docker](https://www.docker.com/)** | Partially (Engine is open source) | Linux, macOS, Windows | Client–server architecture with daemon; Docker CLI; Docker Compose; large image ecosystem (Docker Hub) | Industry standard; huge community and ecosystem; excellent tooling and documentation; broad third-party support | Requires a daemon; licensing restrictions for Docker Desktop; less secure by default than rootless runtimes |
 |**[Podman](https://podman.io/)**|Yes|Linux, macOS, Windows (via WSL)|Daemonless container engine; supports OCI images, rootless mode, Docker CLI compatibility.|Lightweight, secure (no central daemon), easy migration from Docker.|CLI-focused (GUI via Podman Desktop add-on); some advanced Docker features like Swarm not supported.|
 |**[Rancher Desktop](https://rancherdesktop.io/)**|Yes|macOS, Windows, Linux|Kubernetes and container management; supports Docker/containerd runtimes; GUI included.|Integrated K8s for cloud-native dev; free for all use; similar to Docker Desktop UI.|Higher resource use (includes K8s by default); occasional stability issues on some setups.|
 |**[Colima](https://github.com/abiosoft/colima)**|Yes|macOS, Linux|Lightweight VM-based container runtime; uses containerd or Docker; CLI-driven.|Low overhead, fast startup; supports Docker Compose.|No native Windows support; requires manual setup for GUI.|
